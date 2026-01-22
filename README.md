@@ -1,5 +1,7 @@
 This project studies whether AI-written text exhibits different syntactic dynamics from human text by treating part-of-speech sequences as Markov chains. It uses spaCy to tag text, builds POS transition matrices with Laplace smoothing, and compares human and model-generated corpora across multiple genres (academic, blog, news, and TV/movie). The core signal is the spectral gap of the transition matrix, which is derived from eigenvalues to quantify how quickly a chain mixes; the repo also computes stationary distributions to visualize long-run POS behavior and runs paired statistical tests to compare human versus AI outputs.
 
+Find results here: https://drive.google.com/drive/folders/1aS_GJEq0toUry0A5gZls48vozOMDE7-o
+
 ## File overview
 
 Generated with Claude in Cursor:
