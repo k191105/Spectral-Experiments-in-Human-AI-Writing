@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+.ipynb_checkpoints/
+.python-version
+.env
+.venv/
+
+data/
+outputs/
+
+*.parquet
+*.npy
+*.csv
